@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>My Portfolio | Web Developer</title>
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <a href="#home" class="logo"> <span>My</span>Portfolio. </a>
+
+      <input type="checkbox" id="menu-toggle" />
+
+      <label for="menu-toggle" class="menu-icon">
+        <i class="fa-solid fa-bars"></i>
+      </label>
+
+      <nav class="navbar">
+        <a href="#home" class="nav-link active">Home</a>
+        <a href="#services" class="nav-link">Services</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section class="home" id="home">
+      <div class="home-content">
+        <h3>Hello, It's Me</h3>
+
+        <h1>Umma Salma</h1>
+
+        <h3>
+          And I'm a
+          <span id="typing"></span>
+        </h3>
+
+        <p>
+          I am a passionate Web Developer dedicated to creating modern,
+          responsive, and user-friendly websites. I enjoy learning new
+          technologies and turning creative ideas into functional digital
+          experiences.
+        </p>
+
+        <div class="social-icons">
+          <a
+            href="https://github.com/mostsalma909-sketch"
+            target="_blank"
+            rel="noopener"
+          >
+            <i class="fa-brands fa-github"></i>
+          </a>
+
+          <a href="#">
+            <i class="fa-brands fa-facebook"></i>
+          </a>
+
+          <a href="#">
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+
+          <a href="#">
+            <i class="fa-brands fa-linkedin"></i>
+          </a>
+        </div>
+
+        <a href="files/cv.pdf" class="btn" download> Download CV </a>
+      </div>
+
+      <div class="home-image">
+        <div class="image-border">
+          <img src="images/profile.png" alt="My Profile" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+      <h2 class="heading">My <span>Services</span></h2>
+
+      <div class="service-container" id="service-container">
+        <!-- JavaScript Services -->
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+      <div class="about-image">
+        <img src="images/web logo.png" alt="About Me" />
+      </div>
+
+      <div class="about-content">
+        <h2 class="heading">About <span>Me</span></h2>
+
+        <h3>Full Stack Web Developer</h3>
+
+        <p>
+          I am passionate about web development and technology. I enjoy building
+          responsive websites and learning modern development tools. My goal is
+          to become a professional Full Stack Developer.
+        </p>
+
+        <a href="#contact" class="btn">Contact Me</a>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects" id="projects">
+      <h2 class="heading">My <span>Projects</span></h2>
+
+      <div class="project-container">
+        <div class="project-card">
+          <i class="fa-solid fa-calculator"></i>
+          <h3>Calculator App</h3>
+          <p>A simple calculator application using HTML, CSS and JavaScript.</p>
+          <a href="#" class="btn">View Project</a>
+        </div>
+
+        <div class="project-card">
+          <i class="fa-solid fa-globe"></i>
+          <h3>Portfolio Website</h3>
+          <p>A modern and responsive personal portfolio website.</p>
+          <a href="#" class="btn">View Project</a>
+        </div>
+
+        <div class="project-card">
+          <i class="fa-solid fa-plane"></i>
+          <h3>Travel Website</h3>
+          <p>A responsive travel website with modern UI design.</p>
+          <a href="#" class="btn">View Project</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+      <h2 class="heading">Contact <span>Me</span></h2>
+
+      <form id="contact-form">
+        <input type="text" placeholder="Your Name" required />
+
+        <input type="email" placeholder="Your Email" required />
+
+        <input type="text" placeholder="Subject" />
+
+        <textarea placeholder="Your Message" rows="6" required></textarea>
+
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <p>Copyright © 2026 | My Portfolio. All Rights Reserved.</p>
+
+      <a href="#home">
+        <i class="fa-solid fa-arrow-up"></i>
+      </a>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
